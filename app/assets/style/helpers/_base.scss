@@ -1,0 +1,18 @@
+body {
+    background-color: $dark;
+    color: $white;
+    // font-family: 'Azeret Mono', monospace, 'Noto Sans TC', sans-serif;
+}
+
+img {
+    // vertical-align: middle;
+    display: block;
+    max-width: 100%;
+}
+
+a, a:hover, a:visited, a:link, a:active {
+    text-decoration:none;
+    outline: none;
+    color: unset;
+    /* a標籤的四種狀態都和本身顏色保持一致 */
+}

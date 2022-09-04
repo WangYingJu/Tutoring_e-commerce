@@ -1,0 +1,13 @@
+$utilities: (
+  "font-size": (
+    rfs: false,
+    property: font-size,
+    class: fs,
+    values: $font-sizes,
+      // sm: $font-size-sm,
+      // md: $font-size-md,
+      // lg: $font-size-lg,
+      // xl: $font-size-xl,
+      // xxl: $font-size-xxl,
+  ),
+);

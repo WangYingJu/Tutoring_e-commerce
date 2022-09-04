@@ -1,0 +1,7 @@
+@mixin gradient-directional($start-color: $secondary, $end-color: $primary, $deg: 104deg) {
+  background-image: linear-gradient($deg, $start-color, $end-color);
+}
+
+@mixin gradient-y($start-color: $secondary, $end-color: $primary, $start-percent: null, $end-percent: null) {
+  background-image: linear-gradient(to bottom, $start-color $start-percent, $end-color $end-percent);
+}

@@ -1,0 +1,22 @@
+.material-icons {
+  @include media-breakpoint-up(sm) {
+    font-size: 20px;
+    line-height: 26px;
+    vertical-align: sub;
+    margin-right: 6px;
+  }
+}
+
+.text-gradient-y {
+  @include gradient-y;
+  background-clip: text;
+  color: transparent;
+}
+
+.btn-gradient-directional {
+  @include gradient-directional;
+}
+
+.fs-18px {
+  font-size: 18px;
+}
