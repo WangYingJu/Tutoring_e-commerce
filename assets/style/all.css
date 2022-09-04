@@ -19023,15 +19023,24 @@ a, a:hover, a:visited, a:link, a:active {
 }
 
 .hero h1, .hero .h1 {
+  font-size: 24px;
   line-height: 1;
 }
 
+@media (min-width: 576px) {
+  .hero h1, .hero .h1 {
+    font-size: 48px;
+  }
+}
+
 .hero h2, .hero .h2 {
+  font-size: 24px;
   line-height: 35px;
 }
 
 @media (min-width: 576px) {
   .hero h2, .hero .h2 {
+    font-size: 48px;
     line-height: 70px;
   }
 }
@@ -19061,6 +19070,7 @@ a, a:hover, a:visited, a:link, a:active {
 
 @media (min-width: 576px) {
   .point h2, .point .h2 {
+    font-size: 28px;
     line-height: 40px;
   }
 }
