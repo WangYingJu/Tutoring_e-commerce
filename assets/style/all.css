@@ -18980,6 +18980,7 @@ a, a:hover, a:visited, a:link, a:active {
   font-size: 22px;
   line-height: 32px;
   font-weight: bold;
+  text-align: center;
   padding: 0;
   margin: 0;
   margin-bottom: 24px;
@@ -18989,7 +18990,6 @@ a, a:hover, a:visited, a:link, a:active {
   .title {
     font-size: 28px;
     line-height: 40px;
-    text-align: center;
   }
 }
 
